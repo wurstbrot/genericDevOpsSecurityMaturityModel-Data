@@ -1,0 +1,402 @@
+{
+  "metadata": {
+    "team": "Level 3 Answer yes",
+    "security-champion": "",
+    "source-code-repo": "",
+    "issue-tracking": "",
+    "wiki": "",
+    "ci-server": "",
+    "created-by": "",
+    "hide-from-stats": "yes"
+  },
+  "activities": {
+    "Build-4.": {
+      "value": "No",
+      "proof": ""
+    },
+    "Build-1.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "Build-2.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "Build-4.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "Build-3.4": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Build-3.5": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Deployment-2.": {
+      "value": "No",
+      "proof": ""
+    },
+    "Deployment-4.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "Deployment-1.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "Deployment-3.3": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Deployment-4.4": {
+      "value": "No",
+      "proof": ""
+    },
+    "Deployment-3.5": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Deployment-3.6": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Deployment-3.7": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Deployment-2.8": {
+      "value": "No",
+      "proof": ""
+    },
+    "Culture and Organisation-4.": {
+      "value": "No",
+      "proof": ""
+    },
+    "Culture and Organisation-4.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "Culture and Organisation-3.2": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Culture and Organisation-3.3": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Culture and Organisation-4.4": {
+      "value": "No",
+      "proof": ""
+    },
+    "Culture and Organisation-4.5": {
+      "value": "No",
+      "proof": ""
+    },
+    "Culture and Organisation-2.6": {
+      "value": "No",
+      "proof": ""
+    },
+    "Culture and Organisation-2.7": {
+      "value": "No",
+      "proof": ""
+    },
+    "Culture and Organisation-1.8": {
+      "value": "No",
+      "proof": ""
+    },
+    "Culture and Organisation-4.9": {
+      "value": "No",
+      "proof": ""
+    },
+    "Culture and Organisation-3.10": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Culture and Organisation-2.11": {
+      "value": "No",
+      "proof": ""
+    },
+    "Culture and Organisation-3.12": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Monitoring and Metric-3.": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Monitoring and Metric-3.1": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Monitoring and Metric-2.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "Monitoring and Metric-4.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "Monitoring and Metric-3.4": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Monitoring and Metric-4.5": {
+      "value": "No",
+      "proof": ""
+    },
+    "Monitoring and Metric-3.6": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Monitoring and Metric-4.7": {
+      "value": "No",
+      "proof": ""
+    },
+    "Monitoring and Metric-4.8": {
+      "value": "No",
+      "proof": ""
+    },
+    "Monitoring and Metric-1.9": {
+      "value": "No",
+      "proof": ""
+    },
+    "Monitoring and Metric-3.10": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Monitoring and Metric-2.11": {
+      "value": "No",
+      "proof": ""
+    },
+    "Logging-3.": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Logging-1.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "Logging-4.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "Logging-1.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "Logging-2.4": {
+      "value": "No",
+      "proof": ""
+    },
+    "Infrastructur-2.": {
+      "value": "No",
+      "proof": ""
+    },
+    "Infrastructur-2.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "Infrastructur-3.2": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Infrastructur-1.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "Infrastructur-4.4": {
+      "value": "No",
+      "proof": ""
+    },
+    "Infrastructur-4.5": {
+      "value": "No",
+      "proof": ""
+    },
+    "Infrastructur-3.6": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Infrastructur-2.7": {
+      "value": "No",
+      "proof": ""
+    },
+    "Infrastructur-3.8": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Infrastructur-3.9": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Infrastructur-4.10": {
+      "value": "No",
+      "proof": ""
+    },
+    "Infrastructur-1.11": {
+      "value": "No",
+      "proof": ""
+    },
+    "Infrastructur-3.12": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Dynamic depth-4.": {
+      "value": "No",
+      "proof": ""
+    },
+    "Dynamic depth-2.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "Dynamic depth-3.2": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Dynamic depth-3.3": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Dynamic depth-3.4": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Dynamic depth-4.5": {
+      "value": "No",
+      "proof": ""
+    },
+    "Dynamic depth-1.6": {
+      "value": "No",
+      "proof": ""
+    },
+    "Dynamic depth-2.7": {
+      "value": "No",
+      "proof": ""
+    },
+    "Dynamic depth-4.8": {
+      "value": "No",
+      "proof": ""
+    },
+    "Static depth-4.": {
+      "value": "No",
+      "proof": ""
+    },
+    "Static depth-4.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "Static depth-4.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "Static depth-3.3": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Static depth-2.4": {
+      "value": "No",
+      "proof": ""
+    },
+    "Static depth-4.5": {
+      "value": "No",
+      "proof": ""
+    },
+    "Static depth-3.6": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Static depth-1.7": {
+      "value": "No",
+      "proof": ""
+    },
+    "Test-Intensity-3.": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Test-Intensity-2.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "Test-Intensity-1.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "Test-Intensity-4.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "Consolidation-4.": {
+      "value": "No",
+      "proof": ""
+    },
+    "Consolidation-4.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "Consolidation-3.2": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Consolidation-4.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "Consolidation-1.4": {
+      "value": "No",
+      "proof": ""
+    },
+    "Consolidation-2.5": {
+      "value": "No",
+      "proof": ""
+    },
+    "Consolidation-4.6": {
+      "value": "No",
+      "proof": ""
+    },
+    "Consolidation-1.7": {
+      "value": "No",
+      "proof": ""
+    },
+    "Consolidation-3.8": {
+      "value": "Yes",
+      "proof": ""
+    },
+    "Application tests-4.": {
+      "value": "No",
+      "proof": ""
+    },
+    "Application tests-4.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "Application tests-2.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "Application tests-1.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "Infrastructure tests-4.": {
+      "value": "No",
+      "proof": ""
+    },
+    "Infrastructure tests-4.1": {
+      "value": "No",
+      "proof": ""
+    },
+    "Infrastructure tests-1.2": {
+      "value": "No",
+      "proof": ""
+    },
+    "Infrastructure tests-2.3": {
+      "value": "No",
+      "proof": ""
+    },
+    "Infrastructure tests-3.4": {
+      "value": "Yes",
+      "proof": ""
+    }
+  }
+}

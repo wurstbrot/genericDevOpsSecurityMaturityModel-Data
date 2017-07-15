@@ -1,0 +1,599 @@
+{
+  "config": {
+    "schema": "gdosmm",
+    "version": 1.1
+  },
+  "metadata": [
+    "team",
+    "security-champion",
+    "source-code-repo",
+    "issue-tracking",
+    "wiki",
+    "ci-server",
+    "created-by",
+    "hide-from-stats"
+  ],
+  "domains": {
+    "Build and Deployment": {
+      "practices": [
+        "Build",
+        "Deployment"
+      ]
+    },
+    "Culture and Organisation": {
+      "practices": [
+        "Culture and Organisation"
+      ]
+    },
+    "Information gathering": {
+      "practices": [
+        "Monitoring and Metric",
+        "Logging"
+      ]
+    },
+    "Infrastructur": {
+      "practices": [
+        "Infrastructur"
+      ]
+    },
+    "Test and Verification": {
+      "practices": [
+        "Dynamic depth",
+        "Static depth",
+        "Test-Intensity",
+        "Consolidation",
+        "Application tests",
+        "Infrastructure tests"
+      ]
+    }
+  },
+  "practices": {
+    "Build": {
+      "key": "Build",
+      "activities": [
+        "Build-4.",
+        "Build-1.1",
+        "Build-2.2",
+        "Build-4.3",
+        "Build-3.4",
+        "Build-3.5"
+      ]
+    },
+    "Deployment": {
+      "key": "Deployment",
+      "activities": [
+        "Deployment-2.",
+        "Deployment-4.1",
+        "Deployment-1.2",
+        "Deployment-3.3",
+        "Deployment-4.4",
+        "Deployment-3.5",
+        "Deployment-3.6",
+        "Deployment-3.7",
+        "Deployment-2.8"
+      ]
+    },
+    "Culture and Organisation": {
+      "key": "Culture and Organisation",
+      "activities": [
+        "Culture and Organisation-4.",
+        "Culture and Organisation-4.1",
+        "Culture and Organisation-3.2",
+        "Culture and Organisation-3.3",
+        "Culture and Organisation-4.4",
+        "Culture and Organisation-4.5",
+        "Culture and Organisation-2.6",
+        "Culture and Organisation-2.7",
+        "Culture and Organisation-1.8",
+        "Culture and Organisation-4.9",
+        "Culture and Organisation-3.10",
+        "Culture and Organisation-2.11",
+        "Culture and Organisation-3.12"
+      ]
+    },
+    "Monitoring and Metric": {
+      "key": "Monitoring and Metric",
+      "activities": [
+        "Monitoring and Metric-3.",
+        "Monitoring and Metric-3.1",
+        "Monitoring and Metric-2.2",
+        "Monitoring and Metric-4.3",
+        "Monitoring and Metric-3.4",
+        "Monitoring and Metric-4.5",
+        "Monitoring and Metric-3.6",
+        "Monitoring and Metric-4.7",
+        "Monitoring and Metric-4.8",
+        "Monitoring and Metric-1.9",
+        "Monitoring and Metric-3.10",
+        "Monitoring and Metric-2.11"
+      ]
+    },
+    "Logging": {
+      "key": "Logging",
+      "activities": [
+        "Logging-3.",
+        "Logging-1.1",
+        "Logging-4.2",
+        "Logging-1.3",
+        "Logging-2.4"
+      ]
+    },
+    "Infrastructur": {
+      "key": "Infrastructur",
+      "activities": [
+        "Infrastructur-2.",
+        "Infrastructur-2.1",
+        "Infrastructur-3.2",
+        "Infrastructur-1.3",
+        "Infrastructur-4.4",
+        "Infrastructur-4.5",
+        "Infrastructur-3.6",
+        "Infrastructur-2.7",
+        "Infrastructur-3.8",
+        "Infrastructur-3.9",
+        "Infrastructur-4.10",
+        "Infrastructur-1.11",
+        "Infrastructur-3.12"
+      ]
+    },
+    "Dynamic depth": {
+      "key": "Dynamic depth",
+      "activities": [
+        "Dynamic depth-4.",
+        "Dynamic depth-2.1",
+        "Dynamic depth-3.2",
+        "Dynamic depth-3.3",
+        "Dynamic depth-3.4",
+        "Dynamic depth-4.5",
+        "Dynamic depth-1.6",
+        "Dynamic depth-2.7",
+        "Dynamic depth-4.8"
+      ]
+    },
+    "Static depth": {
+      "key": "Static depth",
+      "activities": [
+        "Static depth-4.",
+        "Static depth-4.1",
+        "Static depth-4.2",
+        "Static depth-3.3",
+        "Static depth-2.4",
+        "Static depth-4.5",
+        "Static depth-3.6",
+        "Static depth-1.7"
+      ]
+    },
+    "Test-Intensity": {
+      "key": "Test-Intensity",
+      "activities": [
+        "Test-Intensity-3.",
+        "Test-Intensity-2.1",
+        "Test-Intensity-1.2",
+        "Test-Intensity-4.3"
+      ]
+    },
+    "Consolidation": {
+      "key": "Consolidation",
+      "activities": [
+        "Consolidation-4.",
+        "Consolidation-4.1",
+        "Consolidation-3.2",
+        "Consolidation-4.3",
+        "Consolidation-1.4",
+        "Consolidation-2.5",
+        "Consolidation-4.6",
+        "Consolidation-1.7",
+        "Consolidation-3.8"
+      ]
+    },
+    "Application tests": {
+      "key": "Application tests",
+      "activities": [
+        "Application tests-4.",
+        "Application tests-4.1",
+        "Application tests-2.2",
+        "Application tests-1.3"
+      ]
+    },
+    "Infrastructure tests": {
+      "key": "Infrastructure tests",
+      "activities": [
+        "Infrastructure tests-4.",
+        "Infrastructure tests-4.1",
+        "Infrastructure tests-1.2",
+        "Infrastructure tests-2.3",
+        "Infrastructure tests-3.4"
+      ]
+    }
+  },
+  "activities": {
+    "Build-4.": {
+      "name": "Erlangt ein Angreifer Zugriff auf das Versionskontrollsystem eines Projekts oder auf die Konfiguration zur Erzeugung, kann dieser ggf. Zugriff auf das Erzeungs-System erlangen und dadurch andere Erzeugungsauftr\u00e4ge kompromittieren. Jeder Schritt der Erzeugung findet in einer seperaten virtuellen Umgebung statt.",
+      "level": 4
+    },
+    "Build-1.1": {
+      "name": "Die Erzeugung kann bei jedem mal unterschiedlich durchgef\u00fchrt werden. Wird ein Fehler dabei gemacht k\u00f6nnen sicherheitsrelevante Konfigurationen falsch gesetzt werden. Es existiert ein definierter automatisierter Prozess f\u00fcr die Erzeugung, welcher manuell angesto\u00dfen werden kann.",
+      "level": 1
+    },
+    "Build-2.2": {
+      "name": "Vom pushen von Quellcode in die Versionskontrolle bis zur R\u00fcckmeldung, dass dieser Quellcode eine Schwachstelle enth\u00e4lt, kann Zeit vergehen. Dadurch ist es f\u00fcr den Entwickler schwieriger, gepushten Quellcode nachzuvollziehen und die Schwachstelle nachhaltig zu beseitigen. Bei jedem Push oder periodisch wird eine Verteilung auf eine Testumgebung durchgef\u00fchrt und automatisch Tests- und Verifikationen durchgef\u00fchrt, mindestens f\u00fcr die ge\u00e4nderten Quellcode-Bereiche.",
+      "level": 2
+    },
+    "Build-4.3": {
+      "name": "Manipuliert ein Angreifer ein Artefakt oder ein Abbild, wird dies ggf. nicht bemerkt. Durch Signierung und Signatur-Pr\u00fcfungen von Artefakten und Abbildern ist sichergestellt, dass eine Manipulation oder der Austausch eines Artefakts beziehugnsweise Abbilds bemerkt wird.",
+      "level": 4
+    },
+    "Build-3.4": {
+      "name": "Es ist nicht nachvollziehbar, wie die Konfiguration der Erzeugungsumgebung ver\u00e4ndert wurde. Durch Versionierung der Konfiguration von Auftr\u00e4gen im Continuous Integration Server k\u00f6nnen \u00c4nderungen nachvollzogen werden.",
+      "level": 3
+    },
+    "Build-3.5": {
+      "name": "Ein Artefakt enth\u00e4lt eine Schwachstelle oder verursacht unerwartete Effekte, nachdem es auf Produktion ausgerollt wurde. Verteilungen werden versioniert. Es ist einfach auf eine vorherige Version zur\u00fcck zu greifen.",
+      "level": 3
+    },
+    "Deployment-2.": {
+      "name": "Durch das Einspielen einer Aktualisierung in einer DBMS-Software k\u00f6nnen Fehler auftreten, welche zu Datenverlust f\u00fchren. Automatische Backups werden vor der Verteilung neuer Software durchgef\u00fchrt, sofern die Datenmenge dies in einer angemessenen Zeit zul\u00e4sst. Wiederherstellung ist gepr\u00fcft.",
+      "level": 2
+    },
+    "Deployment-4.1": {
+      "name": "Durch eine Verteilung kann die Verf\u00fcgbarkeit des Systems gef\u00e4hrdet sein. Es wird nur auf einen Server die Verteilung angewendet und anschlie\u00dfend eine Post-Verteilungs-Pr\u00fcfung vorgenommen, nur wenn diese erfolgreich ist, wird auf weitere Server deployed.",
+      "level": 4
+    },
+    "Deployment-1.2": {
+      "name": "Verteilungen k\u00f6nnen unterschiedlich durchgef\u00fchrt werden. Wird ein Fehler bei der Verteilung gemacht, welcher manuell korrigiert werden muss, kann die Verf\u00fcgbarkeit beeintr\u00e4chtigt werden. M\u00f6gliche Scenarien sind entsprechend: Es k\u00f6nnen Sicherheits-Tests, welche das Abbild validieren vergessen werden. Es wird ein Abbild erzeugt, allerdings ein anderes Abbild deployed. Durch einen definierten Verteilungs-Prozess wird die Verf\u00fcgbarkeit erh\u00f6ht, da Fehler reduziert werden.",
+      "level": 1
+    },
+    "Deployment-3.3": {
+      "name": "Angreifer, welche Zugang zum Quellcode und damit zur Konfiguration erhalten, k\u00f6nnen schutzw\u00fcrdige Informationen wie Datenbank-Zug\u00e4nge einsehen. Bei Verteilungen werden schutzbed\u00fcrftige Konfigurationsparameter je nach Umgebung gesetzt. So kann beispielsweise der Datenbank-Zugang \u00fcber Umgebungsvariablen gesetzt werden.",
+      "level": 3
+    },
+    "Deployment-4.4": {
+      "name": "Es sind schwer durch Automatisierung zu findene Schwachstellen in der Anwendung vorhanden. Kunden haben Zugriff auf eine Vor-Produktions-Version und k\u00f6nnen das System pr\u00fcfen.",
+      "level": 4
+    },
+    "Deployment-3.5": {
+      "name": "Es werden unterschiedliche Aktionen in der Testumgebung und der Produktionsumgebung ausgef\u00fchrt. Beispielsweise folgender Quellcode: if (host == 'production') {} else {} Es werden Umgebungsvariablen oder Parameter beim Starten des Artefakts verwendet. Verhalten wird nur \u00fcber Konfiguration gesteuert und nicht \u00fcber Hostnamen o.\u00e4..",
+      "level": 3
+    },
+    "Deployment-3.6": {
+      "name": "Durch eine Verteilung ist die Verf\u00fcgbarkeit des Systems beeintr\u00e4chtigt. Es ist ein l\u00fcckenloser Verteilungs-Prozess definiert.",
+      "level": 3
+    },
+    "Deployment-3.7": {
+      "name": "Es wird ein unterschiedliches Artefakt beziehugnsweise eine unterschiedliche Abbildung der Anwendung f\u00fcr die Testumgebung und die Produktionsumgebung verwendet. Entsprechend k\u00f6nnen auf der Produktionsumgebung unerwartete Effekte auftreten. Das gleiche Artefakt der Anwendung von der Testumgebung wird auf der Produktionsumgebung verwendet.",
+      "level": 3
+    },
+    "Deployment-2.8": {
+      "name": "Angreifer, welche Zugang zum Quellcode und damit zur Konfiguration erhalten, k\u00f6nnen schutzw\u00fcrdige Informationen wie Datenbank-Zug\u00e4nge einsehen. Bei Verteilungen werden schutzbed\u00fcrftige Konfigurationsparameter je nach Umgebung gesetzt. So kann beispielsweise der Datenbank-Zugang \u00fcber Umgebungsvariablen gesetzt werden.",
+      "level": 2
+    },
+    "Culture and Organisation-4.": {
+      "name": "Bedrohungen werden ungen\u00fcgend identifiziert. Bedrohungen werden modelliert.",
+      "level": 4
+    },
+    "Culture and Organisation-4.1": {
+      "name": "Teams sind ungen\u00fcgend auf f\u00fcr das Thema Sicherheit sensibilisiert. Teams pr\u00fcfen die Webanwendung eines anderen Teams. Dadurch wird die Sicherheit der Webanwendung, das Sicherheits-Bewustsein und das Wissen im Bereich Sicherheit erh\u00f6ht. Zus\u00e4tzlich k\u00f6nnen neue soziale Kontakte in einer Organisation entstehen.",
+      "level": 4
+    },
+    "Culture and Organisation-3.2": {
+      "name": "Sicherheitspr\u00fcfungen des Quellcodes durch Externe schaffen kein Verst\u00e4ndnis f\u00fcr Sicherheit bei Entwicklern und System-Administratoren. Periodische Sicherheitspr\u00fcfungen des Quellcodes, bei welchem ein Sicherheitsexperte zusammen mit Entwicklern und System-Adminstratoren Quellcode pr\u00fcft, erh\u00f6hen die Sicherheit und verbreiten Wissen.",
+      "level": 3
+    },
+    "Culture and Organisation-3.3": {
+      "name": "Bedrohungen werden nicht identifiziert. Bedrohungen werden anhand einer einfachen Risikomatrix mit Schadenpotential und Wahrscheinlichkeit des Eintritts geplegt. Im Product Backlog wird eine Bedrohungsanalyse auf Gesch\u00e4ftsprozess-Ebene gepflegt. Beim Sprint Planning erfolgt eine technische Bedrohungsanalyse.",
+      "level": 3
+    },
+    "Culture and Organisation-4.4": {
+      "name": "Notfallpl\u00e4ne sind nicht einge\u00fcbt und Personen k\u00f6nnen im Fall einer Bedrohung \u00fcberfordert mit der Situation sein. War Games sind ein Ansatz der Gamifizierung, bei denen ein Sicherheitsexperte ein Angriffsszenario entwickelt und vorbereitet. Beispielsweise den Ausfall einer Netzwerkschnittstelle eines Datenbankservers oder ein Bruteforce-Angriff auf Benutzerkonten. Anschlie\u00dfend wird das Angriffsszenario auf einer produktionsnahen Umgebung ausgef\u00fchrt. Das zugeh\u00f6rige Team, welches f\u00fcr die Betreuung des Systems und der Anwendung zust\u00e4ndig ist, hat die Aufgabe das System wieder zu reaktivieren oder den Angriff zu analysieren und Gegenma\u00dfnahmen einzuleiten.",
+      "level": 4
+    },
+    "Culture and Organisation-4.5": {
+      "name": "Sicherheitsrelevante Betrachtungen werden zu Oberfl\u00e4chlich durchgef\u00fchrt. Es werden AbUser Stories beschrieben, bei welchem erweitertes Wissen eines Sicherheits-Experten notwendig ist.",
+      "level": 4
+    },
+    "Culture and Organisation-2.6": {
+      "name": "Bei der Erstellung von User Stories werden negative Stories aus Sicht eines Angreifers nicht eingenommen und entsprechend nicht beachtet. Es werden einfache AbUser Stories in agilen Phasen gepflegt. Beispielsweise im Product Backlog und Sprint Backlog.",
+      "level": 2
+    },
+    "Culture and Organisation-2.7": {
+      "name": "Da kein Sicherheits-Verantwortlicher definiert ist, f\u00fchlt sich niemand im Team f\u00fcr Informations-Sicherheit verantwort. Pro Team ist ein Sicherheitsverantwortlicher (h\u00e4ufig 'Security-Champion genannt') definiert.",
+      "level": 2
+    },
+    "Culture and Organisation-1.8": {
+      "name": "Mitarbeiter kennen die Sicherheits-Ziele der Organisation nicht. Durch transparente Kommunikation der Sicherheitsziele durch das Management der Organisation wird der Wert von Sicherheit f\u00fcr das Unternehmen klargestellt.",
+      "level": 1
+    },
+    "Culture and Organisation-4.9": {
+      "name": "Security-Champions habe kein Experten-Wissen und k\u00f6nnen Sicherheit, z.B. via Stories, nicht auf hohem Niveau integrieren. Durch einen Web-Sicherheitsexperten kann Sicherheit hinreichend, z.B. via Stories oder durch einen Penetrations-Tests, in Sprints integriert werden",
+      "level": 4
+    },
+    "Culture and Organisation-3.10": {
+      "name": "Eine Person hat wenig Wissen im Bereich Sicherheit und implementiert Schwachstelle oder vergisst Gegenma\u00dfnahmen zu ergreifen. Bei jeder neuen Version eines Systems oder einer Anwendung (in der Entwicklung bei der \u00dcberf\u00fchrung einer Branch in den Master, in der System-Administration via Konfigurations-\u00c4nderung) wird ein Review aller \u00c4nderungen durch eine zweite Person durchgef\u00fchrt.",
+      "level": 3
+    },
+    "Culture and Organisation-2.11": {
+      "name": "Mitarbeiter nehmen das Thema Informations-Sicherheit nicht ernst. Gute Kommunikation \u00fcber das Thema Informations-Sicherheit wird belohnt. Beispielsweise mittels T-Shirts, girfcards und 'High-Fives'",
+      "level": 2
+    },
+    "Culture and Organisation-3.12": {
+      "name": "Da Informations-Sicherheits-Vorf\u00e4lle nicht diskutiert werden, kann aus diesn nicht gelernt werden. Entsprechend k\u00f6nnen diese \u00f6fter auftreten. Durch Sicherheits-Lessoned-Learned, bei welcher Informations-Sicherheits-Vorf\u00e4lle er\u00f6rtert werden, erhalten Mitarbeiter Einblick in Informations-Sicherheit und ein erh\u00f6htes Bewusstsein f\u00fcr Sicherheit.",
+      "level": 3
+    },
+    "Monitoring and Metric-3.": {
+      "name": "Es sind nicht ausreichend Metriken erfasst um alle Trends zu erfassen oder bei einem Angriff ausreichend Informationen zu erhalten. Erweiterte Metriken um die Verf\u00fcgbarkeit und Stabilit\u00e4t zu erfassen. Insbesondere ungeplante Ausfallzeiten sollten erfasst werden, da diese zu Vertragsstrafen f\u00fchren k\u00f6nnen. Typischerweise werden diese \u00fcber eine Periode, beispielsweise ein Jahr, erfasst.",
+      "level": 3
+    },
+    "Monitoring and Metric-3.1": {
+      "name": "Das Sicherheitsniveau der Webanwendung ist unbekant. Alle Ergebnisse aus der Dimension Test- und Verifizierung werden instrumentiert.",
+      "level": 3
+    },
+    "Monitoring and Metric-2.2": {
+      "name": "Es wird zu sp\u00e4t gemerkt, wenn Systeme ungew\u00f6hnliches verhalten aufweisen. Grenzen f\u00fcr Metriken sind definiert und das System alarmiert.",
+      "level": 2
+    },
+    "Monitoring and Metric-4.3": {
+      "name": "Die Effektivit\u00e4t von Kontrollmanahmen wie Konfiguration, Patch und Schwachstellen Management ist unbekannt. Einf\u00fchrung von Abdeckungs- und Kontroll-Metriken. Durch Abdeckungs- und Kontroll-Metriken wird aufgezeigt wie effektiv das Sicherheits-Programm einer Organisation ist. Sicherheits-Programme sind u.a. durch unternehmensweite Richtlinien gest\u00fctzt, allerdings werden diese nicht immer eingehalten. Abdeckung ist der Grad zu welcher eine bestimmte Sicherheitskontrolle f\u00fcr eine bestimmte Zielgruppe mit allen Ressourcen angewendet wird. Der Kontroll-Grad zeigt die tats\u00e4chliche Anwendung von vorgegebenen Sicherheits-Standards und -Richtlinien. Entsprechend werden durch Abdeckungs- und Kontroll-Metriken L\u00fccken bei der Umsetzung von Richtlinien und Standards aufgezeigt. Umfassende Abdeckungs- und Kontroll-Metriken beinhalten das Sammeln von Informationen zu Anti-Virus Software sowie Anti-Rootkits, Patch Management, Server-Konfiguration und Schwachstellen-Management.",
+      "level": 4
+    },
+    "Monitoring and Metric-3.4": {
+      "name": "Durch sammeln ungenutzter Metriken werden Ressourcen verschwendet, welche f\u00fcr sicherheitsrelevante Dienste genutzt werden k\u00f6nnten. Durch Deaktivierung ungenutzter Metriken stehen mehr Ressourcen zur Verf\u00fcgung.",
+      "level": 3
+    },
+    "Monitoring and Metric-4.5": {
+      "name": "Angriffserkennungssysteme wie eine Paketfilter-Firewalls oder Web-Application-Firewall erkennen und blockieren Angriffe, jedoch ist unbekannt wie viele Angriffe abgewehrt werden und es wird ggf. nicht erkannt, wenn ein Angriff stattfindet. Einf\u00fchrung von Verteidigungs-Metriken. Verteidigungs-Metriken beinhalten das Sammeln von Informationen zu Anti-Virus- und Anti-Rootkit-L\u00f6sungen, Firewalls, Netzwerken und Angriffen. Beispielsweise kann die Anzahl der eingehenden Verbindung nach TCP\/UDP-Port gemessen werden und beinhaltet implizit die Anzahl der eingehenden Verbindung nach TCP\/UDP-Protokoll. Durch Sammeln der Internetprotokoll-Adressen von eingehenden Verbindungen kann der geografische Quell-Standort ermittelt werden.",
+      "level": 4
+    },
+    "Monitoring and Metric-3.6": {
+      "name": "Da sicherheitsrelevante Metriken nicht gruppiert sind, kann es zu Verz\u00f6gerungen bei der Analyse von Vorf\u00e4llen kommen. Metriken sind sinnvoll gruppiert.",
+      "level": 3
+    },
+    "Monitoring and Metric-4.7": {
+      "name": "\u00c4nderungen f\u00fchren zu erh\u00f6hter Last aufgrund Programmierfehler. Erweiterte Metriken werden bei Tests aufgezeichnet und ausgewertet.",
+      "level": 4
+    },
+    "Monitoring and Metric-4.8": {
+      "name": "Sicherheitsrelevante Informationen, z.B. bei einem Angriff, werden versp\u00e4tet erkannt. Ein intern zug\u00e4nglicher Bildschirm zeigt sicherheitsrelevante Metriken.",
+      "level": 4
+    },
+    "Monitoring and Metric-1.9": {
+      "name": "Systemadministratoren und Entwickler m\u00fcssen, um einen \u00dcberblick \u00fcber verschiedene virtuelle Systeme zu erlangen, sich auf diesen einloggen. Insbesondere Entwicklern ohne Linux-Kentnisse f\u00e4llt die Auswertung von Protokollen auf Grundlage der Linux-Befehle cat, grep und awk schwer. Einfache Anwendungs- und System-Metriken sind erfasst.",
+      "level": 1
+    },
+    "Monitoring and Metric-3.10": {
+      "name": "Es werden falsche Personen \u00fcber einen Vorfall informiert. Durch zielgerichtete Information \u00fcber Vorf\u00e4lle kann besser auf Vorf\u00e4lle reagiert werden.",
+      "level": 3
+    },
+    "Monitoring and Metric-2.11": {
+      "name": "Metriken werden mangelhaft dargestellt und k\u00f6nnen deshalb nur begrenzt ausgewertet werden. Metriken sind visuell in Echtzeit dargestellt. Dabei unterst\u00fctzt eine benutzerfreundliche Bedienoberfl\u00e4che.",
+      "level": 2
+    },
+    "Logging-3.": {
+      "name": "Treten Ausnahmen in Anwendungen auf, werden diese verz\u00f6gert oder gar nicht manuell gepr\u00fcft. Ausnahmen werden Instrumentiert und zentral Protokolliert. Zus\u00e4tzlich wird ein Alarm gemeldet.",
+      "level": 3
+    },
+    "Logging-1.1": {
+      "name": "Protokolle sind nicht sichtbar und k\u00f6nnen bei Einbruch in ein System manipuliert werden. Protokolle werden zentral erfasst.",
+      "level": 1
+    },
+    "Logging-4.2": {
+      "name": "Sicherheits-Ereignisse werden nicht korreliert, so dass Zusammennh\u00e4nge zwischen Ereignissen nicht erkannt werden. Sicherheits-Ereignisse werden korreliert. Beispielsweise erh\u00f6hte Anmeldeverusuche mit erfolgreichen Anmeldungen.",
+      "level": 4
+    },
+    "Logging-1.3": {
+      "name": " ",
+      "level": 1
+    },
+    "Logging-2.4": {
+      "name": "Protokolle werden mangelhaft dargestellt und k\u00f6nnen deshalb nur begrenzt ausgewertet werden. Insbesondere Entwickler k\u00f6nnen die in Dateien erfassten Protokolle mittels ungewohnten Werkzeugen wie 'cat', 'grep' und 'less' schwer auswerten. Protokolle sind in einer Oberfl\u00e4che in Echtzeit dargestellt. Dabei unterst\u00fctzt eine benutzerfreundliche Bedienoberfl\u00e4che inklusive Visualisierung von einfachen Protokoll-Metriken.",
+      "level": 2
+    },
+    "Infrastructur-2.": {
+      "name": "Durch einen Einbruch erlangt ein Angreifer Zugriff auf alle auf einem Server laufenden Anwendungen. Anwendungen laufen in virtuellen Umgebungen.",
+      "level": 2
+    },
+    "Infrastructur-2.1": {
+      "name": "Genutzte Software wird ohne Pr\u00fcfung der Quelle geladen und verwendet. Software kann dabei ein Paket des Betriebssystems, ein Abbild eines Betriebssystems, ein geladenes Plugin f\u00fcr einen Continuous Integration-Server oder eine Bibliothek in einer Anwendung sein. Jede Software-Quelle ist manuell auf Vertraulichkeit gepr\u00fcft.",
+      "level": 2
+    },
+    "Infrastructur-3.2": {
+      "name": "Virtuelle Umgebungen k\u00f6nnen auf Sockets anderer virtueller Umgebungen zugreifen, auch wenn dies nicht notwendig ist. Die Kommunikation zwischen virtuellen Umgebungen ist reguliert.",
+      "level": 3
+    },
+    "Infrastructur-1.3": {
+      "name": "Angreifer erhalten Zugriff auf interne Systeme ohne Authentifizierung und k\u00f6nnen Daten mitschneiden. Alle internen Systeme sind mit einfacher Authentifizierung und Verschl\u00fcsselung gesch\u00fctzt.",
+      "level": 1
+    },
+    "Infrastructur-4.4": {
+      "name": "Eine Schwachstelle von Containern sind System-Aufrufe, welche nicht den Namespace beachten Betriebssystem-Aufrufe von Anwendungen in virtuellen Umgebungen sind limitiert und auf einer Positivliste eingetragen",
+      "level": 4
+    },
+    "Infrastructur-4.5": {
+      "name": "Komponenten sind komplex und schwer testbar. Es ist eine Mikroservice-Architektur genutzt.",
+      "level": 4
+    },
+    "Infrastructur-3.6": {
+      "name": "Ein vorheriges Produktionsartefakt l\u00e4sst sich nicht wieder starten, wenn die Verteilung einer neuen Version nicht klappt. Alle Produktions-Artifakte sind versioniert.",
+      "level": 3
+    },
+    "Infrastructur-2.7": {
+      "name": "Erstellung produktionsnaher Umgebungen ist schwer. Tritt eine Schwachstelle nur in der Produktionsumgebung auf, ist es schwierig diese auf einer lokalen Entwicklungsumgebung nachzuvollziehen. Durch Nutzung von einer virtuellen Umgebung und Ablage der Konfiguration im Quellcode, l\u00e4sst sich eine Produktionsumgebung nachstellen.",
+      "level": 2
+    },
+    "Infrastructur-3.8": {
+      "name": "Manuelles Aufsetzen von System-Umgebungen kann zu fehlerhaften Konfigurationen sowie zu diskrepanzen bei redundanten Systemen f\u00fchren. Mittels automatisierter Provisionierung werden System-Umgebungen aufgesetzt (Stichwort: Infrastructure as Code).",
+      "level": 3
+    },
+    "Infrastructur-3.9": {
+      "name": "Da jeder auf einem System jede Aktion ausf\u00fchren darf, ist nicht pr\u00fcfbar wer eine Aktion, wie die \u00c4nderung einer Konfiguration auf dem Erzeugungs- und Verteilungsserver, ausgef\u00fchrt hat. Nutzung von Rollen-basierter Authentifizierung und Autorisierung, ggf. verbunden mit einem zentralem Authentifizierungs-Server.",
+      "level": 3
+    },
+    "Infrastructur-4.10": {
+      "name": "Durch manuelle \u00c4nderungen an Systemen sind diese nicht auswechselbar. Die Verf\u00fcgbarkeit eines redundanten Systems kann beeintr\u00e4chtigt werden. Durch zuf\u00e4lliges Runterfahren von redundandten Systemen wird sichergestellt, dass alle \u00c4nderungen versioniert sind und die Systeme tats\u00e4chlich hochverf\u00fcgbar sind.",
+      "level": 4
+    },
+    "Infrastructur-1.11": {
+      "name": "Sicherheits-Tests werden aufgrund mangelnder Test-Umgebungen nicht durchgef\u00fchrt. Es existiert eine Produktiv-Umgebung und mindestens eine Test-Umgebung",
+      "level": 1
+    },
+    "Infrastructur-3.12": {
+      "name": "Wird eine Anwendung in einer virtuellen Umgebung angegriffen oder hat einen Defekt, kann dies zu erh\u00f6hter Ressourcen-Nutzung f\u00fchren, wodurch auch andere Anwendung auf dem gleichem Server stark beeintr\u00e4chtigt werden k\u00f6nnen. Alle virtuellen Umgebungen besitzen Limitierungen f\u00fcr Arbeitsspeicher, Festplattendurchsatz, Festplattenplatz und Prozessoren.",
+      "level": 3
+    },
+    "Dynamic depth-4.": {
+      "name": "Teile der Anwendung sind beim Spidern mit einem Web-Security-Scanner nicht abgedeckt. Pr\u00fcfung mittels Abdeckungsanalyse-Werkzeuge welche Teile beim Spidern beziehungsweise bei der Nutzung von eigenen Werkzeugen nicht angesprochen werden um Justierung vornehmen zu k\u00f6nnen.",
+      "level": 4
+    },
+    "Dynamic depth-2.1": {
+      "name": "Teile der Anwendung, insbesondere welche mit vom Browser interpretierten dynamischen Inhalten wie JavaScript, sind beim Spidern mit einem Web-Security-Scanner nicht abgedeckt. Nutzung eines Spiders welcher dynamische Inhalte ausf\u00fchrt.",
+      "level": 2
+    },
+    "Dynamic depth-3.2": {
+      "name": "Versteckte Pfade, wie beispielsweise APIs werden nicht abgedeckt. Versteckte Pfade werden abgedeckt.",
+      "level": 3
+    },
+    "Dynamic depth-3.3": {
+      "name": "Teile der Anwendung, insbesondere welche mit speziell formatierten oder kodierten Parametern (z.B. Suchmaschinenoptimierte Parameter in der URL, Kommunikation via WebSockets, Parameter in JSON oder Base64-Kodierte Parameter), werden beim Erfassen bestehender Pfade mit einem Web-Security-Scanner nicht abgedeckt. Spezielle Parameter und Kodierungen sind in eingesetzten Web-Security-Scannern definiert.",
+      "level": 3
+    },
+    "Dynamic depth-3.4": {
+      "name": "Sequenziellen Aktionen wie Workflows sind beim Spidern mit einem Web-Security-Scanner nicht abgedeckt. Seqenzielle Aktionen werden definiert, so dass der Scanner diese in der korrekten Reihenfolge pr\u00fcft.",
+      "level": 3
+    },
+    "Dynamic depth-4.5": {
+      "name": "Serverseitige Kommunikation, wie bei der Nutzung von Microservices, ist ungepr\u00fcft. Backend-Kommunikation ist aufgezeichnet und ist gepr\u00fcft.",
+      "level": 4
+    },
+    "Dynamic depth-1.6": {
+      "name": "Mangelhafte Sicherheitspr\u00fcfungen. Nach einer Verteilung k\u00f6nnen einfache Schwachstellen lange Zeit unerkannt in der Produktionsumgebung vorhanden sein. Ein einfacher Scan wird mit einem Web-Security-Scanner regelm\u00e4\u00dfig durchgef\u00fchrt. Sofern die Pr\u00fcfung in angemessener Zeit erfolgt, w\u00e4hrend jeder Verteilung.",
+      "level": 1
+    },
+    "Dynamic depth-2.7": {
+      "name": "Teile der Anwendung, insbesondere welche mit Authentifizierung, sind beim Spidern mit einem Web-Security-Scanner nicht abgedeckt. Integration von Authentifizierung mit verschiedenen Rollen und Session Management",
+      "level": 2
+    },
+    "Dynamic depth-4.8": {
+      "name": "Ein Web-Security-Scanner ist ggf. nicht optimiert f\u00fcr alle genutzten Technologien. Entsprechend k\u00f6nnen Schwachstellen unerkannt bleiben. Es sind weitere spezielle Scanner eingesetzt.",
+      "level": 4
+    },
+    "Static depth-4.": {
+      "name": "Quellcode-Dupliakte k\u00f6nnen die Stabilit\u00e4t beeintr\u00e4chtigen. Erkennung und Meldung von Duplikaten in Quellcode.",
+      "level": 4
+    },
+    "Static depth-4.1": {
+      "name": "Von der Webanwendung genutzt Bibliotheken enthalten unbekannte Schwachstellen in der Implementierung. Es wird eine statische Analyse, in Form von String Matching Algorithmen und\/oder Datenflussanalysen, f\u00fcr serverseitige und klientenseitige Bibliotheken durchgef\u00fchrt.",
+      "level": 4
+    },
+    "Static depth-4.2": {
+      "name": "Teile der Webanwendung enthalten Schwachstellen in der Implementierung. Es wird eine statische Analyse, in Form von String Matching Algorithmen und\/oder Datenflussanalysen, f\u00fcr alle Bereiche der serverseitigen und klientenseitigen Webanwendung durchgef\u00fchrt. Externe Bibliotheken werden nicht gepr\u00fcft.",
+      "level": 4
+    },
+    "Static depth-3.3": {
+      "name": "Wichtige Teile der klientenseitigen Webanwendung enthalten Schwachstellen in der Implementierung. Es wird eine statische Analyse, in Form von String Matching Algorithmen und\/oder Datenflussanalysen, f\u00fcr wichtige Teile der klientenseitigen Webanwendung durchgef\u00fchrt.",
+      "level": 3
+    },
+    "Static depth-2.4": {
+      "name": "Wichtige Teile der serverseitigen Webanwendung enthalten Schwachstellen in der Implementierung. Es wird eine statische Analyse, in Form von String Matching Algorithmen und\/oder Datenflussanalysen, f\u00fcr wichtige Teile der serverseitigen Webanwendung durchgef\u00fchrt. Die statische(n) Analyse(n) wird automatisiert durchgef\u00fchrt und nach M\u00f6glichkeit in die Entwicklungsumgebung integriert.",
+      "level": 2
+    },
+    "Static depth-4.5": {
+      "name": "Durch falsche Einr\u00fcckung werden Schwachstellen eingef\u00fchrt. Durch \u00dcberpr\u00fcfung von Programmkonventionen (Style Guides) ist sichergestellt, dass diese eingehalten werden.",
+      "level": 4
+    },
+    "Static depth-3.6": {
+      "name": "Eingesetzte klientenseitige Komponten k\u00f6nnen Fehler enthalten, so dass die Informationssicherheit beeintr\u00e4chtigt wird. Diese k\u00f6nnen u.a. erst nach Verteilung der Webanwendung bekannt werden. Tests auf klientenseitige Komponenten mit bekannten Schwachstellen werden regelm\u00e4\u00dfig durchgef\u00fchrt, beispielsweise jede Nacht.",
+      "level": 3
+    },
+    "Static depth-1.7": {
+      "name": "Eingesetzte serverseitige Komponten k\u00f6nnen Fehler enthalten, so dass die Informationssicherheit beeintr\u00e4chtigt wird. Diese k\u00f6nnen u.a. erst nach Verteilung der Webanwendung bekannt werden. Tests auf serverseitige Komponenten mit bekannten Schwachstellen werden regelm\u00e4\u00dfig durchgef\u00fchrt, beispielsweise jede Nacht.",
+      "level": 1
+    },
+    "Test-Intensity-3.": {
+      "name": "Scans f\u00fchren zu viele oder zu wenig Scans f\u00fcr unterschiedliche Schwachstellen durch. Die Test-Intensit\u00e4t ist angepasst.",
+      "level": 3
+    },
+    "Test-Intensity-2.1": {
+      "name": "Pr\u00fcfungen nehmen stark Ressourcen in Anspruch. Unn\u00f6tige Pr\u00fcfungen sind deaktiviert. Benutzt eine Webanwendung die Mongo-Datenbank, kann ggf. auf eine SQL-Injection-Pr\u00fcfung verzichtet werden.",
+      "level": 2
+    },
+    "Test-Intensity-1.2": {
+      "name": "Durch Zeitdruck und Unwissenheit werden falsche Annahmen f\u00fcr die Intensit\u00e4t getroffen. Es ist die Standardeinstellungen f\u00fcr die Intensit\u00e4t von Werkzeugen genutzt.",
+      "level": 1
+    },
+    "Test-Intensity-4.3": {
+      "name": "Durch zu niedriger Scan-Intensit\u00e4t werden Schwachstellen nicht aufgedeckt. M\u00f6glichst alle Schwachstellen-Tests werden periodisch mit hoher Test-Intensit\u00e4t durchgef\u00fchrt.",
+      "level": 4
+    },
+    "Consolidation-4.": {
+      "name": "Aufgrund der einfachen Visualisierung von Alarmen sind zusammenh\u00e4nge nicht auf den ersten Blick erkennbar. Alarme werden als Metrik erfasst visualisiert.",
+      "level": 4
+    },
+    "Consolidation-4.1": {
+      "name": "Die Wartung von Alarmen und falsch Positiven in unterschiedlichen Werkzeugen und Definitionen erh\u00f6ht den Aufwand stark. Aggregation von Alarmen, dabei werden auch doppelte Alarme nach M\u00f6glichkeit zusammengef\u00fchrt.",
+      "level": 4
+    },
+    "Consolidation-3.2": {
+      "name": "Jedes Team muss jeden Alarm pr\u00fcfen, so kann Frust entstehen. Alarme werden Teams zugewiesen, so dass keine Ressourcen verschwendet werden.",
+      "level": 3
+    },
+    "Consolidation-4.3": {
+      "name": "Alarme k\u00f6nnen von Entwicklern \/ System-Adminstratoren ggf. nur schwer nachvollzogen werden. Alarme enthalten den Ablauf der Aktionen um die gemeldete Schwachstelle einfacher reproduzieren zu k\u00f6nnen.",
+      "level": 4
+    },
+    "Consolidation-1.4": {
+      "name": "Aufgrund von mehrfach falsch positiv gemeldeten Schwachstellen werden neue Warnungen ignoriert. Falsch positiv gemeldete Schwachstellen werden, auf Basis von Werkzeugen, markiert und bei der n\u00e4chsten Pr\u00fcfung nicht mehr gemeldet.",
+      "level": 1
+    },
+    "Consolidation-2.5": {
+      "name": "Es ist unklar, wie viele Alarme im Monat entstehen. Alarme werden einach visualisiert um einfache Trendanalyse durchf\u00fchren zu k\u00f6nnen.",
+      "level": 2
+    },
+    "Consolidation-4.6": {
+      "name": "Alarme mit Schwere 'Einfach' werden nicht beachtet. Akzeptanzkretieren f\u00fcr gefundene Schwachstellen sind definiert. Empfehlung ist Meldungen mit der Schwere 'Einfach' ebenfalls zu behandeln.",
+      "level": 4
+    },
+    "Consolidation-1.7": {
+      "name": "Mangelhafte Auswertung der erfolgten Sicherheitspr\u00fcfungen. Akzeptanzkretieren f\u00fcr gefundene Schwachstellen sind definiert. Empfehlung ist hier nur als kritisch eingestufte Schwachstellen\/Alarme zu behandeln. Sofern die genutzten Werkzeuge es anbieten, kann auch das Vertrauen (Englisch Confidence) mit zur Einstufung herangezogen werden. Entsprechend wird die Erzeugung markiert oder gestoppt, wenn Schwachstellen mit einer Sicherheitseinstufung \u00fcber der definierten Akzeptanz gefunden werden.",
+      "level": 1
+    },
+    "Consolidation-3.8": {
+      "name": "Mittelschwere Alarme werden nicht beachtet. Akzeptanzkretieren f\u00fcr gefundene Schwachstellen sind definiert. Empfehlung ist mittelschwere Meldungen ebenfalls zu behandeln.",
+      "level": 3
+    },
+    "Application tests-4.": {
+      "name": "Es sind nicht alle Teile der Anwendung mit Sicherheitspr\u00fcfungen versehen. Implementierung grundlegender Sicherheitstests als Integrations- und\/oder Akzeptanztests f\u00fcr alle Teile (auch Bibliotheken) der Anwendung.",
+      "level": 4
+    },
+    "Application tests-4.1": {
+      "name": "Durch eine Verteilung auf die Produktionsumgebung k\u00f6nnen Mikroservices gest\u00f6rt sein, z.B. wenn die Datenbank nicht erreicht werden kann. Integrationstests pr\u00fcfen die Produktionsumgebung um sicher zu stellen, dass Funktionen, z.B. bereitgestellt durch Mikroservices oder externe Dienste, erreichbar sind.",
+      "level": 4
+    },
+    "Application tests-2.2": {
+      "name": "In der Anwendung sind grundlegende Fehler bei der Benutzung eines Frameworks m\u00f6glich, ohne das diese erkannt werden. Implementierung grundlegender Sicherheitstests als und Integrationstests. Beispielsweise kann die Authentifizierung und Autorisierung (Zugriffskontrolle) gepr\u00fcft werden.",
+      "level": 2
+    },
+    "Application tests-1.3": {
+      "name": "Schwachstellen sind unbeachbsichtigt Implementiert. Integration von sicherheitsrelevanten Modultests f\u00fcr gesch\u00e4ftskritische Bereiche. Dadurch k\u00f6nnen Schwachstellen wie fehlende Authentifizierung erkannt werden.",
+      "level": 1
+    },
+    "Infrastructure tests-4.": {
+      "name": "Systeme wie Firewalls k\u00f6nnen nach einer Anpassung sicherheitskritisch konfiguriert sein. Automatische Pr\u00fcfung von Infrastruktur-Systemen wie Firewalls.",
+      "level": 4
+    },
+    "Infrastructure tests-4.1": {
+      "name": "Es ist unbekannt wie viele Anfragen das System bedienen kann und wie sich das System bei vielen Anfragen verh\u00e4lt. Last-Tests werden periodisch ausgef\u00fchrt.",
+      "level": 4
+    },
+    "Infrastructure tests-1.2": {
+      "name": "Das Betriebssystem oder seine Dienste enthalten bekannte Schwachstellen. H\u00e4ufig laufen Docker-Container zu lange ohne System-Aktuallisierung zu erhalten. Pr\u00fcfung auf Aktualisierungen und bei veralteter Software Meldung an einen Verantwortlichen, welcher die Patches einspielt.",
+      "level": 1
+    },
+    "Infrastructure tests-2.3": {
+      "name": "Virtuelle Umgebungen birgen die Gefahr sicherheitskritisch Konfiguriert zu sein. Mit Hilfe von Werkzeugen wird die Konfiguration von virtuellen Umgebungen gepr\u00fcft.",
+      "level": 2
+    },
+    "Infrastructure tests-3.4": {
+      "name": "Mitarbeiterkonten und priviligierte Benutzerkonten sind mit schwachen Passw\u00f6rtern gesch\u00fctzt. Automatische BruteForce-Angriffe auf Benutzer-Konten von Mitarbeitern sowie Standard-Konten wie 'administrator'.",
+      "level": 3
+    }
+  }
+}
